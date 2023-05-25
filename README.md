@@ -21,6 +21,11 @@ THEN I am again presented with current and future conditions for that city
 
 ## Description
 
+A application that shows the user, weather conditions for a certain city of their choosing. 
+Simple, understandable, and user friendly. 
+This application is straight to the point and accurate. 
+As well as a necessity for travelers. 
+
 ## Images
 
 ![Alt text](images/2023-05-25%20(2).png)
@@ -35,3 +40,5 @@ https://kmarie0420.github.io/Weather-Outlook/
 https://github.com/kmarie0420/Weather-Outlook
 
 ## Credits
+https://openweathermap.org/api
+Jacob Norton- Tutorer 
