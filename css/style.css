@@ -9,7 +9,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: rgb(197, 229, 239);
   }
 
   .header {
@@ -19,63 +19,15 @@ body {
     text-align: center;
   }
 
-  .float-left {
-    display: inline;
-    flex-direction: left column;
-    margin: 25px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: purple;
+  div .weather-container {display: block;
   }
   
-  div .weather-container {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin-left: 200px;
-  }
 
-  .weather-box {
-    display: block;
-    justify-content: center;
-
-  }
-
-  .weather-container {
-    text-align: center;
-}
-
-  #temperature {
+  #temperature, #condition, #location, #humidity, #wind-speed {
     font-size: 50px;
     margin: 0;
   }
-  
-  #condition {
-    font-size: 20px;
-    margin: 0;
-  }
-  
-  #location {
-    font-size: 20px;
-    margin: 0;
-  }
-
-  #humidity {
-    font-size: 20px;
-    margin: 0;
-  }
-
-  #wind-speed {
-    font-size: 20px;
-    margin: 0;
-  }
-
-
-
-
-  
+    
   input[type="text"] {
     padding: 10px;
     margin-right: 10px;
@@ -115,26 +67,24 @@ body {
 
 
   .citys {
-    display: block;
     box-shadow: 5px;
+    border-radius: 10px;
     
   }
 
   .city-container {
-    border-radius: 3px;
-    border-bottom: black;
-    display: block;
-    flex-direction: column-reverse;
+   display: inline-block;
 }
 
 .weather-box {
   width: 20%;
   margin: 0 auto;
+  padding-bottom: 20px;
 }
 
-.future, .weather-box {
-  border: 1px solid rgb(198, 198, 198);
-  background: rgb(224, 224, 224);
+.future, .weather-box, .city-container {
+  border: 1px solid rgb(100, 116, 169);
+  background-color: rgb(117, 133, 139);
   padding: 30px;
   border-radius: 6px;
   box-shadow:   2px 2px 15px 0px rgba(0,0,0,0.75)
@@ -148,45 +98,10 @@ body {
     justify-content: space-evenly;
 }
 
-.five-day-forecast {
-    padding: 10px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .forecast {
-    padding: 0;
-    margin: auto;
-  }
-
-
-
-
-
-
-
-
-.current-weather {
-    display: flex, row;
-    margin: 20px 0 0 20px;
-    padding: 0 0 12px 0;
-    background-color: white;
-}
-
-.current {
-    background-color: white;
-}
-
 .current-temperature, .current-humidity, .current-windspeed {
     margin: 15px 20px;
     background-color: white;
     font-size: 20px;
-}
-
-.current-title {
-    font-size: 40px;
-    margin: 15px 0 20px 20px;
-    display: inline;
 }
 
 .current-weatherimg {

@@ -18,3 +18,20 @@ WHEN I view future weather conditions for that city
 THEN I am presented with a 5-day forecast that displays the date, an icon representation of weather conditions, the temperature, the wind speed, and the humidity
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
+
+## Description
+
+## Images
+
+![Alt text](images/2023-05-25%20(2).png)
+![Alt text](images/2023-05-25%20(1).png)
+
+## Deployment
+
+https://kmarie0420.github.io/Weather-Outlook/
+
+## Repository
+
+https://github.com/kmarie0420/Weather-Outlook
+
+## Credits
