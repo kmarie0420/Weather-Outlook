@@ -1,12 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Weather Outlook</title>
 </head>
+<div class="upper" id="upper">
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+    </header>
+</div>
+
 <body>
-    
+    <div class="search-container">
+        <section class="search-col" id="search-col">
+            <p1>Search for a city.
+                <input type="text" placeholder="Enter a location" id="search-bar">
+                <button id="search-btn">Search</button>
+            </p1>
+        </section>
+    </div>
+    <div class="city-container" id="city-container">
+        <section class="citys" id="citys">
+            <p><button id="city-btn">Detroit</button></p>
+            <p><button id="city-btn">San Antonio</button></p>
+            <p><button id="city-btn">New York City</button></p>
+            <p><button id="city-btn">Anchor Bay</button></p>
+            <p><button id="city-btn">Mount Victor</button></p>
+    </div>
+    <div class="weather-container">
+        <div class="weather-box">
+            <img id="current-weather-img" class="current-weather-img" src="" alt="">
+            <h2 id="temperature"></h2>
+            <p id="condition"></p>
+            <p id="city"></p>
+            <p id="humidity"></p>
+            <p id="windspeed"></p>
+        </div>
+    </div>
+    </container>
+    <container class="current" id="current">
+        <div id="current-weather" class="current-weather">
+            <div class="current">
+                <h2 id="current-title" class="current-title"></h2>
+            </div>
+            <p class="current-location" id="current-location"></p>
+            <p class="current-temperature" id="current-temperature"></p>
+            <p class="current-humidity" id="current-humidity"></p>
+            <p class="current-windspeed" id="current-windspeed"></p>
+            <p class="current-condition" id="current-condition"></p>
+        </div>
+    </container>
+
+    <div id="future-forecast" class="row future-forecast">
+        <h3 class="future-forecast" id="future-forecast">
+            </h2>
+            <div id="forecasts" class="forecasts">
+                <div class="future">
+                    <p class="future-date" id="future-date"></p>
+                    <img id="futureimg" src="" alt="">
+                    <p class="future-temp" id="future-temp"></p>
+                    <p class="future-humidity" id="future-humidity"></p>
+                </div>
+                <div class="future">
+                    <p class="future-date" id="future-date"></p>
+                    <img id="futureimg" src="" alt="">
+                    <p class="future-temp" id="future-temp"></p>
+                    <p class="future-humidity" id="future-humidity"></p>
+                </div>
+                <div class="future">
+                    <p class="future-date" id="future-date"></p>
+                    <img id="futureimg" src="" alt="">
+                    <p class="future-temp" id="future-temp"></p>
+                    <p class="future-humidity" id="future-humidity"></p>
+                </div>
+                <div class="future">
+                    <p class="future-date" id="future-date"></p>
+                    <img id="futureimg" src="" alt="">
+                    <p class="future-temp" id="future-temp"></p>
+                    <p class="future-humidity" id="future-humidity"></p>
+                </div>
+                <div class="future">
+                    <p class="future-date" id="future-date"></p>
+                    <img id="futureimg" src="" alt="">
+                    <p class="future-temp" id="future-temp"></p>
+                    <p class="future-humidity" id="future-humidity"></p>
+                </div>
+                </section>
+                </aside>
+                <script src="js/script.js"></script>
+
 </body>
+
 </html>
