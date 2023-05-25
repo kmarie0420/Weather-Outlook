@@ -11,7 +11,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(197, 229, 239);
   }
-
+/* First thing you see. Header */
   .header {
     margin-bottom: 20px;
     background-color: darkblue;
@@ -19,22 +19,23 @@ body {
     text-align: center;
   }
 
-  div .weather-container {display: block;
+  div .weather-container {
+    display: block;
   }
   
-
+/* condensed weather conditions since all are same style */
   #temperature, #condition, #location, #humidity, #wind-speed {
     font-size: 50px;
     margin: 0;
   }
-    
+    /* style for text */
   input[type="text"] {
     padding: 10px;
     margin-right: 10px;
     border-radius: 5px;
     border-color: black;
   }
-  
+  /* Search button */
    button {
     padding: 10px 20px;
     border-radius: 5px;
@@ -43,14 +44,14 @@ body {
     cursor: pointer;
     margin-bottom: 20px;
   } 
-
+/* Search bar itslef */
   textarea {
     display: flex;
     flex-direction: column;
     background: white;
     align-items: center;
   }
-
+/* placment of search button */
   .search-btn {
     display: inline;
     justify-content: left;
@@ -65,8 +66,8 @@ body {
 
 
 
-
-  .citys {
+/* couldnt complete saved searches */
+  /* .citys {
     box-shadow: 5px;
     border-radius: 10px;
     
@@ -74,14 +75,15 @@ body {
 
   .city-container {
    display: inline-block;
-}
-
+} */
+/* placement for current container */
 .weather-box {
   width: 20%;
   margin: 0 auto;
   padding-bottom: 20px;
 }
-
+/* future foreacasts, current cards and saved searches*/
+/* wasnt able to complete saved searches */
 .future, .weather-box, .city-container {
   border: 1px solid rgb(100, 116, 169);
   background-color: rgb(117, 133, 139);
@@ -97,13 +99,13 @@ body {
     display: flex;
     justify-content: space-evenly;
 }
-
+/* codensed weather conditions since they are the same style */
 .current-temperature, .current-humidity, .current-windspeed {
     margin: 15px 20px;
     background-color: white;
     font-size: 20px;
 }
-
+/* icon size */
 .current-weatherimg {
     width: 80px;
     height: 80px;

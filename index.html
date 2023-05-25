@@ -5,16 +5,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Stylesheet link -->
     <link rel="stylesheet" href="css/style.css">
     <title>Weather Outlook</title>
 </head>
 <div class="upper" id="upper">
     <header class="header">
+        <!-- First thing you see on page. Header. -->
         <h1>Weather Dashboard</h1>
     </header>
 </div>
 
 <body>
+    <!-- Search bar and Search button -->
     <div class="search-container">
         <section class="search-col" id="search-col">
             <p1>Search for a city.
@@ -23,14 +26,16 @@
             </p1>
         </section>
     </div>
-    <div class="city-container" id="city-container">
+    <!-- Couldnt finish the local storage or buttons -->
+    <!-- <div class="city-container" id="city-container">
         <section class="citys" id="citys">
             <p><button id="city-btn">Detroit</button></p>
             <p><button id="city-btn">San Antonio</button></p>
             <p><button id="city-btn">New York City</button></p>
             <p><button id="city-btn">Anchor Bay</button></p>
             <p><button id="city-btn">Mount Victor</button></p>
-    </div>
+    </div> -->
+    <!-- Container for weather conditions. -->
     <div class="weather-container">
         <div class="weather-box">
             <img id="current-weather-img" class="current-weather-img" src="" alt="">
@@ -42,6 +47,7 @@
         </div>
     </div>
     </container>
+    <!-- Shows current weather conditions when searched for.  -->
     <container class="current" id="current">
         <div id="current-weather" class="current-weather">
             <div class="current">
@@ -54,7 +60,7 @@
             <p class="current-condition" id="current-condition"></p>
         </div>
     </container>
-
+<!-- Future forecast containers and weather conditions -->
     <div id="future-forecast" class="row future-forecast">
         <h3 class="future-forecast" id="future-forecast">
             </h2>
@@ -91,6 +97,7 @@
                 </div>
                 </section>
                 </aside>
+                <!-- Script source -->
                 <script src="js/script.js"></script>
 
 </body>
